@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="co.com.luifer.cuentas.RevistaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        app:cardElevation="4dp"
+        app:cardBackgroundColor="#602CC670">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="5dp">
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:layout_marginBottom="50dp"
+                android:fontFamily="@font/bevan"
+                android:gravity="center"
+                android:text="@string/revistas"
+                android:textColor="@color/colorAccent"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/croydon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="croydon"
+                android:layout_margin="5dp"
+                android:background="@drawable/redondo"/>
+
+            <Button
+                android:id="@+id/avon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AVON"
+                android:layout_margin="5dp"
+                android:background="@drawable/redondo"/>
+
+            <Button
+                android:id="@+id/novaventa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NOVAVENTA"
+                android:layout_margin="5dp"
+                android:background="@drawable/redondo"/>
+
+            <Button
+                android:id="@+id/mp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MP"
+                android:layout_margin="5dp"
+                android:background="@drawable/redondo"/>
+
+
+
+            <Button
+                android:id="@+id/esika"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ESIK"
+                android:layout_margin="5dp"
+                android:background="@drawable/redondo"/>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</FrameLayout>

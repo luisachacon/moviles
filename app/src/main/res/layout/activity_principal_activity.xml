@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/found5"
+    android:orientation="vertical"
+    tools:context="co.com.luifer.cuentas.Principal_activity"
+    android:layout_gravity="center">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        app:cardElevation="4dp"
+        app:cardBackgroundColor="#602CC670">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textoStatico"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="1dp"
+                android:fontFamily="@font/bevan"
+                android:gravity="center"
+                android:text="@string/bienvenido"
+                android:textColor="@color/colorAccent"
+                android:textSize="30sp" />
+
+
+            <TextView
+                android:id="@+id/cargarnombre"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:gravity="left"
+                android:text=""
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/cargarRol"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:gravity="left"
+                android:text=""
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+
+            <Button
+                android:id="@+id/opciones_cuenta_principal"
+                android:layout_width="214dp"
+                android:layout_height="58dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/redondo"
+                android:fontFamily="@font/bevan"
+                android:text="@string/bienvenido"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/opciones_cliente_principal"
+                android:layout_width="214dp"
+                android:layout_height="58dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/bevan"
+                android:background="@drawable/redondo"
+                android:text="@string/clientes"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/opciones_Revista_principal"
+                android:layout_width="214dp"
+                android:layout_height="58dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/bevan"
+                android:background="@drawable/redondo"
+                android:text="@string/revistas"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

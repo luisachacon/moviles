@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/found5"
+    android:orientation="vertical"
+    tools:context="co.com.luifer.cuentas.Login">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        app:cardElevation="4dp"
+        app:cardBackgroundColor="#602CC670">
+
+        <TextView
+            android:id="@+id/textIngresar"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="1dp"
+            android:fontFamily="@font/bevan"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/ingresar"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="1dp"
+                android:src="@drawable/user"/>
+
+            <EditText
+
+                android:id="@+id/nombreLogin"
+                android:layout_width="308dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:hint="@string/usuario"
+                android:inputType="textPersonName"
+                android:text=""
+                android:textColor="#000"
+                android:textColorHint="#000" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:hint="@string/contraseña"
+                android:inputType="textPassword"
+                android:text=""
+                android:layout_marginBottom="10dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#000"/>
+
+
+            <Button
+                android:id="@+id/ingresarUsuarioLogin"
+                android:layout_width="175dp"
+                android:layout_height="52dp"
+                android:layout_gravity="center"
+                android:background="@drawable/redondo"
+                android:fontFamily="@font/arbutus"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:text="@string/ingresar"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
+</LinearLayout>
